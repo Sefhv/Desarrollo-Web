@@ -5,27 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bienes Raices</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-    <header>
-        <a href="/">
-            <img src="img/logo.svg" alt="Logotipo de Bienes Raices"> 
-        </a>
-        <nav>
-            <a href="nosotros.html">Nosotros</a>
-            <a href="anuncios.html">Anuncios</a>
-            <a href="blog.html">Blog</a>
-            <a href="contacto.html">Contacto</a>
-        </nav>
+    <header class="site-header landing">
+        <div class="container">
+            <div class="bar">
+                <a href="/">
+                    <img src="img/logo.svg" alt="Logotipo de Bienes Raices"> 
+                </a>
+                <nav class="nav">
+                    <a href="nosotros.html">Nosotros</a>
+                    <a href="anuncios.html">Anuncios</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="contacto.html">Contacto</a>
+                </nav>
+            </div>
             
-        <h1>Venta de Casas y Departamentos Exclusivos de Lujo</h1>
+            <h1>Venta de Casas y Departamentos Exclusivos de Lujo</h1>
+        </div> <!-- container -->
     </header>
+
     
     <section>
-        <h2>Mas sobre nosotros</h2>
-
-
+        <h2>Más sobre nosotros</h2>
+        
         <div>            
             <img src="img/icono1.svg" alt="Icono Seguridad">
             <h3>Seguridad</h3>
@@ -101,6 +108,9 @@
 
     <section>
         <h3>Testimoniales</h3>
+        <header>
+            <p>Escrito por:</p>
+        </header>
         <blockquote>
             El personal se comportó de una excelente forma, muy buena atención ya la casa que me ofrecieron cumple con todas mis expectativas.
         </blockquote>
@@ -108,7 +118,7 @@
     </section>
     
     <footer>
-        <nav>
+        <nav class="nav">
             <a href="nosotros.html">Nosotros</a>
             <a href="anuncios.html">Anuncios</a>
             <a href="blog.html">Blog</a>
